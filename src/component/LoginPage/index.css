@@ -1,0 +1,101 @@
+.password_show_hide_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    padding: 2px 10px;
+    border: 1px solid #0000006d;
+    height: 50px;
+}
+.login_title {
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.hello_image {
+    height: 20px;
+    width: 20px;
+    margin-left: 6px;
+}
+
+.login_labels {
+    font-weight: 700;
+}
+.input_form {
+    width: 400px;
+    padding: 6px 10px;
+    cursor: pointer;
+    outline: none;
+    height: 40px;
+
+}
+.password_input_form {
+    width: 100%;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+    height: 30px;
+}
+.login_main_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login_form_container {
+    border: 1px solid #0000006d;
+    padding: 30px 50px;
+    border-radius: 8px;
+    line-height: 5px;
+}
+.check_box_remind_me {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.forgot_password {
+    color: #088e61cf;
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+}
+.forgot_password:hover{
+    color: #0c5b40f2;
+}
+.check_box_remind_forgot_password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox {
+    margin-right: 6px;
+    color: #088e61b6;
+}
+
+.login_button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #0da170d4;
+    color: #fff;
+    border: 0px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+}
+.login_button:hover {
+ background-color: #076c4ad4;
+}
+.signup_link {
+    color: #076c4ad4;
+    font-weight: 700;
+}
+
+.dont_have_an_acc_title{
+    text-align: center;
+}

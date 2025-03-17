@@ -1,0 +1,50 @@
+.nav_main_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+    border: 1px solid red;
+}
+
+.nav_links_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    list-style-type: none;
+}
+.logo_img {
+    height: 60px;
+    width:80px;
+}
+.contact_us_btn {
+    border: 1px solid #075a3ecb;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 18px;
+    color: #05422ec3;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+.contact_us_btn:hover{
+    background-color: #05422ec3;
+    color: #fff;
+    transition: 0.5s ease-in;
+} 
+.login_btn{
+    background-color: #05422ec3;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 18px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border: 0px;
+}
+.login_btn:hover{
+    background-color: #fff;
+    color:  #05422ec3;
+    transition: 0.5s ease-in;
+    border: 1px solid #05422ec3;
+}
