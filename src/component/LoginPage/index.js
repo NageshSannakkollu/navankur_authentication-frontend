@@ -25,7 +25,7 @@ const LoginPage = () => {
 
     const loginHandler = async(event) => {
         event.preventDefault()
-        const response = await axios.post("http://localhost:3026/api/login",values)
+        const response = await axios.post("https://navankur-authentication-backend.onrender.com/api/login",values)
         Cookies.set("jwt_token",response.data.jwtToken)
         if(response.data.success){
             toast.success("Login Success!")

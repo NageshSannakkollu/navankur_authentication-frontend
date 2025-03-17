@@ -11,7 +11,7 @@ const ResetEmailPage = () => {
     const submitEmailHandler = async(event) => {
         event.preventDefault()
         const userEmail = {email}
-        const response = await axios.post("http://localhost:3026/api/reset",userEmail)
+        const response = await axios.post("https://navankur-authentication-backend.onrender.com/api/reset",userEmail)
         console.log("Email Response",response)
     }
 

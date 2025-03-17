@@ -22,7 +22,7 @@ const ResetPasswordPage = () => {
         }
         const newDetails = {newPassword,confirmPassword}
         console.log("newDetails:",newDetails,id)
-        const response = await axios.post(`http://localhost:3026/api/reset-password/${id}`,newDetails)
+        const response = await axios.post(`https://navankur-authentication-backend.onrender.com/api/reset-password/${id}`,newDetails)
         if(response.data.success){
           toast.success(response.data.message)
           navigate("/login")

@@ -13,7 +13,7 @@ const RegisterPage = () => {
 
     const registerHandler = async(event) => {
         event.preventDefault()
-        const response = await axios.post("http://localhost:3026/api/register",values)
+        const response = await axios.post("https://navankur-authentication-backend.onrender.com/api/register",values)
         if(response.data.success){
             toast.success(response.data.message)
             navigate("/login")
